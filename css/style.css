@@ -1,0 +1,78 @@
+h1{
+    color:darkslategrey;
+    font-size: 30px;
+}
+
+h2{
+    color:peru;
+    font-size:20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer{
+    background: rgb(146, 146, 142);
+    color:rgb(65, 64, 55);
+}
+.artist-card{
+    border: 1px solid gray;
+    border-radius:8px;
+    background-color: beige;
+}
+.thumbnail{
+    border:1px solid rgb(26, 23, 23);
+    border-radius:8px;
+
+}
+
+.popup-image{
+
+      width: 500px;
+}
+
+#vangogh h2{
+    color: brown;
+}
+
+#gauguin h2{
+    color: darkolivegreen;
+}
+
+#lautrec h2{
+    color: sandybrown;
+}
+
+#welcome-text{
+    font-size:22px;
+}
+
+main article p{
+    font-size: 18px;
+}
+
+nav a{
+    color:navy;
+}
+
+footer p{
+    font-weight: bold;
+}
+
+/* הצבע של special-title יבחר כי בורר מחלקה יותר ספציפי מבורר סוג. */
+.special-title{
+    color: chocolate;
+}
+
+
+
+/*  Specificity: (id,class,type)
+
+.thumbnail--(0,1,0)
+
+ footer p--(0,0,2)
+
+ #welcome-text--(1,0,0)
+ */
